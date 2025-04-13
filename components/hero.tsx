@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/bg/health.webp"
+          src="/bg/bg.jpg"
           alt="Industrial health checkup"
           fill
           className="object-cover"
