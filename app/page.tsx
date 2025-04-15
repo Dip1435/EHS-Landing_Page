@@ -9,6 +9,7 @@ import Team from "@/components/team";
 import Testimonials from "@/components/testimonials";
 import Contact from "@/components/contact";
 import TopClients from "@/components/topCompanies";
+import SolarServices from "@/components/solar-services";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <Stats />
         <WhyChooseUs />
+        <SolarServices />
         <Services />
         <Industries />
         <TopClients />

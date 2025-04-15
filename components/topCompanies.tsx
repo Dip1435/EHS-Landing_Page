@@ -1,8 +1,11 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function TopClients() {
   const clients = [
-    { name: "Dial Ninja", logo: "/clients/accumax.png" },
+    {
+      name: "Dial Ninja",
+      logo: "/clients/accumax.png",
+    },
     { name: "GoMow", logo: "/clients/asahi.png" },
     { name: "HomeCupid", logo: "/clients/logo-pharama.png" },
     { name: "Town of Fairview", logo: "/clients/asian.png" },
@@ -12,15 +15,18 @@ export default function TopClients() {
     { name: "SaveIn", logo: "/clients/Mangalam-Alloys-Logo.jpg" },
     { name: "Fitsyn CRM", logo: "/clients/gujarat pestiside.jpg" },
     { name: "Helping with Flags", logo: "/clients/jovial.png" },
-  ]
+  ];
 
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Esteemed Clients</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+            Our Esteemed Clients
+          </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Trusted by leading organizations across industries for on-site health checkups and wellness programs.
+            Trusted by leading organizations across industries for on-site
+            health checkups and wellness programs.
           </p>
           <div className="h-1 w-20 bg-green-600 mx-auto mt-4"></div>
         </div>
@@ -33,12 +39,12 @@ export default function TopClients() {
                 alt={client.name}
                 width={120}
                 height={60}
-                className="object-contain grayscale hover:grayscale-0 transition duration-300"
+                className="object-contain"
               />
             </div>
           ))}
         </div>
       </div>
     </section>
-  )
+  );
 }
