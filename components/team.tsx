@@ -18,7 +18,7 @@ export default function Team() {
       degree: "MBBS, AFIH",
       role: "DIRECTOR",
       bio: "Ex. Certifying Surgeon, Industrial and Health Govt. Of Gujarat.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/team/makwana.jpeg",
     },
     {
       name: "Dr.R.R.Parmar",
@@ -28,18 +28,25 @@ export default function Team() {
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Mr.PUNIT PATEL",
+      name: "Mr. Rakesh.P.Gandhi",
+      degree: "M.Sc. (Chemistry)",
+      role: "Hygienist",
+      bio: "Ex. Senior Assistant Industrial Safety and Health Govt. of Gujarat.",
+      image: "/team/r.g.jpg",
+    },
+    {
+      name: "Mr.PUNIT.B PATEL",
       degree: "B.E.(BIOTECK), PDIS",
       role: "Fire & Safety Consultant",
       bio: "Ex. Executive Safety Officer, Torrent PHARMACEUTICAL.",
       image: "/placeholder.svg?height=300&width=300",
     },
     {
-      name: "Mrs.JIGNESHA PATEL",
+      name: "Mrs.JIGNESHA.P PATEL",
       degree: "B.PHARM",
       role: "Project Manager",
       bio: "Ex. Senior Tech Superwiser, ZYDUS PHARMACEUTICAL.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/team/jigi.jpeg",
     },
   ];
 
@@ -64,7 +71,7 @@ export default function Team() {
               key={index}
               className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
             >
-              <div className="relative h-64 w-full">
+              <div className="relative h-96 w-full">
                 <Image
                   src={member.image || "/placeholder.svg"}
                   alt={member.name}

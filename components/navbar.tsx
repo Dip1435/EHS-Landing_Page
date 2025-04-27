@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X, Leaf } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +43,14 @@ export default function Navbar() {
             }}
             className="flex items-center space-x-2"
           >
-            <Leaf className="h-8 w-8 text-green-600" />
+            {/* <Leaf className="h-8 w-8 text-green-600" /> */}
+            <Image
+              src={"/logo/logo.png"}
+              alt="logo"
+              width={50}
+              height={50}
+              // className="h-8 w-8 rounded-full"
+            />
             <span
               className={`font-bold  md:text-xl text-lg ${
                 isScrolled ? "text-gray-800" : "text-white"

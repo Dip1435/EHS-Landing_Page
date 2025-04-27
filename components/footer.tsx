@@ -1,5 +1,6 @@
-"use client"
-import { Leaf, Facebook, Twitter, Linkedin, Instagram } from "lucide-react"
+"use client";
+import { Leaf, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -8,21 +9,44 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <Leaf className="h-8 w-8 text-green-500" />
-              <span className="font-bold text-xl">Soleaf Energy And EHS Solution</span>
+              {/* <Leaf className="h-8 w-8 text-green-500" /> */}
+              <Image
+                src={"/logo/logo.png"}
+                alt="logo"
+                width={50}
+                height={50}
+                className="bg-white"
+              />
+              <span className="font-bold text-xl">
+                Soleaf Energy And EHS Solution
+              </span>
             </div>
-            <p className="text-gray-300 mb-4">Empowering Industrial Wellbeing through Expert Health Checkups</p>
+            <p className="text-gray-300 mb-4">
+              Empowering Industrial Wellbeing through Expert Health Checkups
+            </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-green-500 transition-colors">
+              <a
+                href="#"
+                className="text-gray-300 hover:text-green-500 transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-green-500 transition-colors">
+              <a
+                href="#"
+                className="text-gray-300 hover:text-green-500 transition-colors"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-green-500 transition-colors">
+              <a
+                href="#"
+                className="text-gray-300 hover:text-green-500 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-300 hover:text-green-500 transition-colors">
+              <a
+                href="#"
+                className="text-gray-300 hover:text-green-500 transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -35,8 +59,8 @@ export default function Footer() {
                 <a
                   href="#"
                   onClick={(e) => {
-                    e.preventDefault()
-                    window.scrollTo({ top: 0, behavior: "smooth" })
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -47,8 +71,10 @@ export default function Footer() {
                 <a
                   href="#about"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("about")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -59,8 +85,10 @@ export default function Footer() {
                 <a
                   href="#services"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("services")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -71,8 +99,10 @@ export default function Footer() {
                 <a
                   href="#industries"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("industries")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("industries")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -83,8 +113,10 @@ export default function Footer() {
                 <a
                   href="#contact"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("contact")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -101,8 +133,10 @@ export default function Footer() {
                 <a
                   href="#services"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("services")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -113,8 +147,10 @@ export default function Footer() {
                 <a
                   href="#services"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("services")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -125,8 +161,10 @@ export default function Footer() {
                 <a
                   href="#services"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("services")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -137,8 +175,10 @@ export default function Footer() {
                 <a
                   href="#services"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("services")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -149,8 +189,10 @@ export default function Footer() {
                 <a
                   href="#services"
                   onClick={(e) => {
-                    e.preventDefault()
-                    document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })
+                    e.preventDefault();
+                    document
+                      .getElementById("services")
+                      ?.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="text-gray-300 hover:text-green-500 transition-colors"
                 >
@@ -172,9 +214,12 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Soleaf Energy & ESH Solutions. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Soleaf Energy & ESH Solutions. All
+            rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
