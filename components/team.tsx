@@ -25,7 +25,7 @@ export default function Team() {
       degree: "MBBS, DPH",
       role: "Medical Director",
       bio: "Ex. Chief District Health Officer, Ahmedabad and Dahod.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/team/rr.jpeg",
     },
     {
       name: "Mr. Rakesh.P.Gandhi",
