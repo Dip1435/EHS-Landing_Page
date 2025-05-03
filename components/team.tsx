@@ -18,7 +18,14 @@ export default function Team() {
       degree: "MBBS, AFIH",
       role: "DIRECTOR",
       bio: "Ex. Certifying Surgeon, Industrial and Health Govt. Of Gujarat.",
-      image: "/team/makwana.jpeg",
+      image: "/team/makw.jpeg",
+    },
+    {
+      name: "Mrs.HEMLATTABEN.I MAKWANA",
+      degree: "B.SCHOME SCIENCE",
+      role: "TEAM CO-ORDINATOR",
+      bio: "PRIVATE BUISENESS",
+      image: "/team/hemlata.jpeg",
     },
     {
       name: "Dr.R.R.Parmar",
@@ -33,6 +40,13 @@ export default function Team() {
       role: "Hygienist",
       bio: "Ex. Senior Assistant Industrial Safety and Health Govt. of Gujarat.",
       image: "/team/r.g.jpg",
+    },
+    {
+      name: "Mr. Narendra Bhavsar",
+      degree: "M.Sc. (Chemistry)",
+      role: "Hygienist",
+      bio: "Ex. Senior Assistant Industrial Safety and Health Govt. of Gujarat.",
+      image: "/team/bhavsar.jpeg",
     },
     {
       name: "Mr.PUNIT.B PATEL",
