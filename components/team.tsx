@@ -53,7 +53,7 @@ export default function Team() {
       degree: "B.E.(BIOTECK), PDIS",
       role: "Fire & Safety Consultant",
       bio: "Ex. Executive Safety Officer, Torrent PHARMACEUTICAL.",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "/team/pnt.jpg",
     },
     {
       name: "Mrs.JIGNESHA.P PATEL",
